@@ -43,14 +43,12 @@ function Person(name, age) {
   this.name = name;
   this.age = age;
   this.stomach = [];
-  }
 }
 
 Person.prototype.eat = function (someFood){
     if (this.stomach.length < 10) {
       this.stomach.push(someFood);
     }
-  }
 }
 
 Person.prototype.poop = function (){
@@ -60,7 +58,7 @@ Person.prototype.poop = function (){
 }
 
 Person.prototype.toString = function (){
-  console.log (`${this.name}, ${this.age}`)
+  return `${this.name}, ${this.age}`;
 }
 
 
@@ -88,7 +86,12 @@ function Car(model, milesPerGallon) {
 }
 
 Car.prototype.fill= function(gallons){
-  this.tank = gallons;
+  this.tank = this.tank + gallons;
+}
+
+Car.prototype.drive = function (milesDriven){
+  this.odometer = this.odometer + milesDriven;
+  this.tank = this.tank - milesDriven / this.milesPerGallon;
 }
 
 
