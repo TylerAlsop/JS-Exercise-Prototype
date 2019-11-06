@@ -129,7 +129,7 @@ Baby.prototype.play = function(x){
     
   3. New Binding: One of the reasons using the "this" keyword for Implicit Binding is helpful is because when an constructor function is used to easily generate new objects an infinite number of objects can be created using the constructor function. Each one of the new objects will have a different name. Using the "this" keyword means that you don't need to type out the new name of each new object on each of the keys inside of said new object. Infact you don't even need to type out the keys at all (that were used in the original constructor function).
  
-  4. EXPLICIT BINDING: Things that have the "this" keyword can be overwritten (explicitly defined) by using the .call and .apply .
+  4. EXPLICIT BINDING: Items that have the "this" keyword can be overwritten by using the .call and .apply methods.
 */
 
 
