@@ -126,9 +126,9 @@ Baby.prototype.play = function(x){
   1. Window/Global Object Binding: When the "this" keyword is used in the global scope it binds it to the window (the unseen object that everything is actually in).
 
   2. Implicit Binding: When the "this" keyword preceeds a dot, it is basically being used in place of the name of the object within which it is typed and can be used as such. 
-    -One of the reasons this is helpful is because when an object generator is used an infinite number of objects can be created using the object generator but each one will have a different name. Using the "this" keyword means that you don't need to type out the new name of each new object on each of the keys inside of said new object. 
-
-  3. 
+    
+  3. New Binding: One of the reasons using the "this" keyword for Implicit Binding is helpful is because when an constructor function is used to easily generate new objects an infinite number of objects can be created using the constructor function. Each one of the new objects will have a different name. Using the "this" keyword means that you don't need to type out the new name of each new object on each of the keys inside of said new object. 
+ 
   4. 
 */
 
