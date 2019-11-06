@@ -123,13 +123,13 @@ Baby.prototype.play = function(x){
   ********DISCLAIMER: I am using the terminology layed out in Training kit to basically name the four principles.
   ********GENERAL DEFINITION (in my own words): The "this" keword is used to reference whatever object it is typed in and will therefore be limited to the scope of that particular object.
 
-  1. Window/Global Object Binding: When the "this" keyword is used in the global scope it binds it to the window (the unseen object that everything is actually in).
+  1. WINDOW/GLOBAL OBJECT BINDING: When the "this" keyword is used in the global scope it binds it to the window (the unseen object that everything is actually in).
 
-  2. Implicit Binding: When the "this" keyword preceeds a dot, it is basically being used in place of the name of the object within which it is typed and can be used as such. 
+  2. IMPLICIT BINDING: When the "this" keyword preceeds a dot, it is basically being used in place of the name of the object within which it is typed and can be used as such. 
     
   3. New Binding: One of the reasons using the "this" keyword for Implicit Binding is helpful is because when an constructor function is used to easily generate new objects an infinite number of objects can be created using the constructor function. Each one of the new objects will have a different name. Using the "this" keyword means that you don't need to type out the new name of each new object on each of the keys inside of said new object. Infact you don't even need to type out the keys at all (that were used in the original constructor function).
  
-  4. 
+  4. EXPLICIT BINDING:
 */
 
 
