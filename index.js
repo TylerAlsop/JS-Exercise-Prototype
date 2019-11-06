@@ -59,6 +59,9 @@ Person.prototype.poop = function (){
   }
 }
 
+Person.prototype.toString = function (){
+  console.log (`${this.name}, ${this.age}`)
+}
 
 
 
