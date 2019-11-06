@@ -120,7 +120,7 @@ Baby.prototype.play = function(x){
 
   In your own words explain the four principles for the "this" keyword below:
 
-  ********DISCLAIMER: I am using the terminology layed out in Training kit to basically name the four principles.
+  ********DISCLAIMER: I am using the terminology layed out in Training kit simply to name the four principles.
   ********GENERAL DEFINITION (in my own words): The "this" keword is used to reference whatever object it is typed in and will therefore be limited to the scope of that particular object.
 
   1. WINDOW/GLOBAL OBJECT BINDING: When the "this" keyword is used in the global scope it binds it to the window (the unseen object that everything is actually in).
