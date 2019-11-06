@@ -43,6 +43,7 @@ function Person(name, age) {
   this.name = name;
   this.age = age;
   this.stomach = [];
+  }
 }
 
 Person.prototype.eat = function (){
@@ -51,6 +52,14 @@ Person.prototype.eat = function (){
     }
   }
 }
+
+Person.prototype.poop = function (){
+  if (Person.prototype.poop){
+    this.stomach.length = 0;
+  }
+}
+
+
 
 
 
